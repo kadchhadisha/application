@@ -75,7 +75,8 @@ class New extends StatelessWidget {
                         onTap:(){
                           Navigator.of(context).push(MaterialPageRoute(builder: (context){
                             return Start();
-                          }));
+                          })
+                          );
                         },
                         child: Container( height: 50,width: 200,
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),color: Colors.purple.shade700,),
@@ -99,7 +100,6 @@ class New extends StatelessWidget {
           )),
         ],
       ),
-
     );
   }
 }
